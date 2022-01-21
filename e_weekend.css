@@ -1,0 +1,14 @@
+:root {
+    --primary: #4887af;
+    --secondary: #21dee6;
+    --gradient: #249dad;
+    --ranger: #62afdb;
+    --gradient: linear-gradient(90deg, #62afdb 0%, #21dee6 0%, #249dad 61%, #4887af 95%);
+}
+
+body h1,
+h2 {
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
